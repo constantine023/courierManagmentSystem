@@ -1,5 +1,51 @@
 # courierManagmentSystem
 
+	Software requirements:
+
+•	Any browser like chrome or edge
+
+•	Xampp x64 bit
+
+	How to run this system
+
+1.	Setup the Xampp Control Panel 
+Then clone this repository and move it in the ‘htdocs’ folder of Xampp (In c drive)
+
+2.	Open Xampp, run Apache server and MySQl
+
+![](Snapshots/xampp.jpg)
+
+Place this URl in your browsers 
+‘http://localhost/phpmyadmin/’
+ Or you can just click on the MySQL admin button in Xampp it will open PhPMyAdmin
+
+3.	Import Database 
+
+In PhpMyAdmin, create a new database with name ‘cms’ 
+ 
+ ![](Snapshots/CreateDatabase.jpg)
+
+Then import database
+ 
+![](Snapshots/ImportDatabase.jpg)
+
+Click on ‘import’ and navigate to the htdocs>darcel>database>cms.db
+
+![](Snapshots/databaseImported.jpg)
+ 
+That’s all!
+Now you can run this application in your browser
+
+User Panel
+
+Simply put http://localhost/darcel/userpanal/login.php in browser
+
+Admin Panel
+
+http://localhost/darcel/Admin /login.php
+
+
+
 		How the system works
 
 User panel:
