@@ -1,0 +1,39 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.dropdown {
+  position: absolute;
+  right: 112px;
+}
+
+.form-outline {
+  display: flex;
+}
+
+#search {
+  margin-right: 6px;
+}
+
+#btn {
+  width: 100px;
+  height: 50px;
+  height: 59px;
+  margin-top: 8px;
+  border-radius: 7px;
+  background: #1b505c7a;
+  outline: none;
+  border: none;
+  font-family: cursive;
+}
+
+.container {
+  position: absolute;
+  top: 110px;
+  left: 100px;
+}
+
+.btn-outline-dark {
+  height: 35px;
+  margin-top: 9px;
+}
